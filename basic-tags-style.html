@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Gwen's HTML and CSS Milestones </title>
+  <style>
+    .color{
+      color: chocolate;
+    }
+
+    #block-level-text > h2{
+      color: chocolate;
+    }
+
+    .border{
+      border: 2px solid black;
+    }
+
+    .text{
+      text-align:center;
+    }
+
+  </style>
+</head>
+<body>
+  <h1> Basic Tags </h1>
+
+  <section id="block-level-text">
+    <h2> Paragraph, Blockquote, and Pre-formatted Text</h2>
+    <div class="border">
+      <p class="text"> This is the paragraph  &lt;p&gt; tag.</p>
+      <blockquote class="text"> This is the blockquote  &lt;blockquote&gt; tag.</blockquote>
+      <pre class="text"> This is the pre-formatted text &lt;pre&gt; tag.</pre>
+    </div>
+  </section>
+
+  <h2> Italics, Bold, and Code</h2>
+  <section id="incline-text">
+    <div class="border">
+      <p class="text"> <em> This is the italics &lt;em&gt; and &lt;i&gt; tag.</em> </p>
+      <p class="text"> <strong class="text"> This is the bold &lt;strong&gt; and &lt;b&gt; tag.</strong> </p>
+      <p class="text"> <code class="text"> This is the code &lt;code&gt; tag. </code> </p>
+    </div>
+  </section>
+
+  <h2> Hyperlink </h2>
+  <section id="hyperlink">
+    <div class="border">
+      <p class="text"> This is the &lt;a&gt; tag. <a href = "https://www.pbs.org/wgbh/nova/media/original_images/iStock-1159659362_JQfuHlL.jpg" target="_blank"> Click this hyperlink. </a> </p>
+    </div>
+  </section>
+
+  <h2> Image </h2>
+  <section id="image">
+    <div class="border">
+      <p class="text"> This is the &lt;img&gt; tag. <img src = "squirrel.jpg" alt="Squirrel laying on rock"> </p>
+    </div>
+  </section>
+
+  <h2> Headers </h2>
+  <section id="headers">
+    <div class="border">
+      <h1 class="text"> This is the &lt;h1&gt; tag.</h1>
+      <h2 class="text"> This is the &lt;h2&gt; tag.</h2>
+      <h3 class="text"> This is the &lt;h3&gt; tag.</h3>
+      <h4 class="text"> This is the &lt;h4&gt; tag.</h4>
+      <h5 class="text"> This is the &lt;h5&gt; tag.</h5>
+      <h6 class="text"> This is the &lt;h6&gt; tag.</h6>
+    </div>
+  </section>
+
+  <h2> Lists </h2>
+  <section id="lists">
+    <div class="border">
+      <p class="color">Unordered</p>
+      <ul >
+        <li > 1 </li>
+        <li> 2 </li>
+        <li> 3</li>
+      </ul>
+      <p class="color">Ordered</p>
+      <ol>
+        <li> first </li>
+        <li> second </li>
+        <li> third </li>
+      </ol>
+      <p class="color">Other HTML</p>
+      <ul>
+        <li> <p> hi.</p> </li>
+        <li> <a href = "https://en.wikipedia.org/wiki/Squirrel" target="_blank"> Important info </a></li>
+        <li> <img src= "funnysquirrel.jpg" alt="Squirrel with mouth open"> </li>
+      </ul>
+      <p class="color">Nested</p>
+      <ul>
+        <li> 1 </li>
+        <li> 2
+          <ol>
+            <li> first </li>
+            <li> second
+              <ul>
+                <li> 1 </li>
+                <li> 2 </li>
+              </ul>
+            </li>
+          </ol>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <h2> Tables </h2>
+  <section id="tables">
+    <div class=border>
+      <table>
+        <tr>
+          <th> column 1 </th>
+          <th>  column 2 </th>
+          <th> column 3 </th>
+        </tr>
+        <tr>
+          <td> 1 </td>
+          <td> 2 </td>
+          <td> 3</td>
+        </tr>
+        <tr>
+          <td> 4 </td>
+          <td> 5 </td>
+          <td> 6 </td>
+        </tr>
+        <tr>
+          <td> 7 </td>
+          <td> 8 </td>
+          <td> 9 </td>
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <th> column 1 </th>
+        </tr>
+        <tr>
+          <td> 1 </td>
+        </tr>
+      </table>
+
+      <table>
+        <tr>
+          <th> column 1</th>
+          <th> column 2</th>
+        </tr>
+      <tr>
+        <td> 1 </td>
+        <td> 2 </td>
+      </tr>
+      <tr>
+        <td> 3 </td>
+        <td> 4 </td>
+      </tr>
+      </table>
+    </div>
+  </section>
+</body>
+</html>
