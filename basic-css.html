@@ -11,6 +11,24 @@
       background-color: white;
       background-image: url('bckgrdsquirrel.jpg');
     }
+
+    #pos{
+      padding: 300px 0px;
+    }
+
+    .container{
+      padding: 12px;
+      width: 500px;
+      height: 150px;
+      border: 2px solid #a48737;
+      margin: 0 auto;
+
+    }
+
+    #pos .container{
+      background-color: transparent;
+    }
+
     p{
       color: #a48737;
       text-align: center;
@@ -35,31 +53,41 @@
       padding: 55px;
       margin: 0 auto 0 auto;
     }
-    .container{
-      background-color: transparent;
-      padding: 12px;
-      width: 500px;
-      height: 150px;
-      border: 2px solid #a48737;
-      margin: 0 auto;
 
+    .container > span{
+      font-family: system-ui;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: bolder;
+      letter-spacing:2px;
+      line-height: 1.5px;
+      margin-left: 270px;
     }
 
-    .pos{
-      padding: 300px 0px;
+    span{
+      font-family: system-ui;
+      font-size: 10px;
+      font-style:normal;
+      font-weight:bolder;
+      letter-spacing:2px;
+      line-height:1px;
+      margin-left: 817px;
     }
 
   </style>
 
 </head>
 <body>
-  <div class="pos">
+  <div id="pos">
     <div class="container">
       <p> Squirrels</p>
         <ul>
           <li> yeah, i like squirrels </li>
         </ul>
+        <span> too much? </span>
       </div>
+      <span> oh well </span>
   </div>
+
 </body>
 </html>
