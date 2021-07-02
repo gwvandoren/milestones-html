@@ -15,32 +15,70 @@
       text-align: center;
     }
 
+    .nav{
+      background-color: black;
+      display: grid;
+      grid-row-gap: 10px;
+      grid-template-columns: auto auto auto auto auto auto auto;
+      padding: 10px;
+    }
+
+    .index, .structure, .snippet, .basic-tags, .multimedia, .basic-css, .basic-tags-style{
+      padding: 10px;
+      text-align: center;
+    }
+
+    button{
+      border: none;
+      background-color: black;
+      color:white;
+      font-family:system-ui;
+      font-size: 20px;
+      border-radius: 30px;
+    }
+
+    button:hover{
+      background-color:#a48737;
+      cursor:pointer;
+    }
+
     h2,h3{
       color: white;
       text-align:center;
     }
 
-    p{
-      text-align:center;
+    img{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
     }
 
   </style>
 </head>
 <body>
-
   <h1> welcome to gwen's html and css milestones :) </h1>
+
+  <div class="nav">
+    <div class="index"><button onclick="window.open('index.html','_blank')"> index </button></div>
+    <div class="structure"> <button onclick="window.open('structure.html','_blank')"> structure </button></div>
+    <div class="snippet"><button onclick="window.open('snippet.html','_blank')"> snippet </button> </div>
+    <div class="basic-tags"><button onclick="window.open('basic-tags.html','_blank')"> basic-tags</button></div>
+    <div class="multimedia"><button onclick="window.open('multimedia.html','_blank')">multimedia</button></div>
+    <div class="basic-css"><button onclick="window.open('basic-css.html','_blank')">basic-css</button></div>
+    <div class="basic-tags-style"><button onclick="window.open('basic-tags-style.html','_blank')">basic-tags-style</button></div>
+  </div>
+
   <h2> Development Environment</h2>
-  <h3> Command Line Tutorial </h3>
-  <!-- video here -->
-  <p> Description of tasks completed in tutorial </p>
 
-  <h3> Editing and Viewing Tutorial </h3>
-  <!-- video here -->
-  <p> Description of tasks completed in tutorial </p>
+  <h3> Command Line </h3>
+  <img src="CL.jpg" alt="command line">
 
-  <h3> Publishing HTML Tutorial </h3>
-  <!-- video here -->
-  <p> Description of tasks completed in tutorial </p>
+  <h3> Editing and Viewing</h3>
+  <img src="editview.jpg" alt="index.html file code">
+
+  <h3> Publishing HTML  </h3>
+  <img src="publish.jpg" alt="surge">
 
 </body>
 </html>
